@@ -1,0 +1,204 @@
+.list-items {
+    display: flex;
+}
+a{
+color: #000;
+text-decoration: none;
+
+}
+.a:hover{
+    transform: scale(2s);
+    transition: 1.5s;
+    color: greenyellow;
+}
+.logo{
+ 
+    width: 50px;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.list-items li {
+    list-style: none;
+    padding: 0 15px;
+   justify-content: space-around;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: orange;
+    /* color: white; */
+    border-radius: 20px;
+    width: 65px;
+    border: none;
+    height: 32px;
+    margin-top: 10px;
+    /* padding-left: 12px; */
+}
+
+.btn:hover{
+    transform: scale(3s);
+    transition: 1.5s ;
+    color: aqua  ; 
+}
+
+ .my-products{
+    display: flex;
+    
+ }
+
+ .products{
+    /* border: 2px groove; */
+    text-align: center;
+
+ }
+
+.products p{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+ }
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background:rgb(121, 127, 110);
+    color: white;
+    padding: 20px;
+}
+footer li{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+h1{
+    display: flex;
+    color: white;
+    /* background: #000; */
+    justify-content: center;
+    border-radius: 20px;
+    /* margin: 0%; */
+}
+.abc img{
+    width: 100vw;
+    height: 80vh;
+}
+
+
+
+
+
+.profile img{
+   display: flex;
+   justify-content: center;
+ border-radius: 50%;
+ width: 250;
+ height: 250px;
+}
+.profile{
+    display: flex;
+justify-content: center;
+width: 50vw;
+}
+/* .about-me p{
+width: 50vw;
+height: 50vh;
+
+} */
+
+.about{
+
+    
+    display: flex;
+    width: 50vw;
+  padding: 20px 0;
+
+}
+.about-me{
+  width: 50vw;
+  padding: 30px;
+
+}
+.about-me h2{
+    font-weight: 300;
+}
+.about-me p{
+    font-weight: 200;
+}
+
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    
+}
+.contact-form input{
+    width: 200px;
+    padding: 12px 0;
+    margin: 4px 0;
+   border-radius: 20px;
+   border: none;
+
+}
+body{
+    background-color:lightgray;
+}
+
+.contact-btn{
+display: flex;
+justify-content: center;
+}
+.contact-btn button{
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    padding: 12px 0;
+    margin: 8px 0;
+background: orange;
+cursor: pointer; 
+}
+ .contact-btn button:hover{
+transform: scale(3s);
+    transition: 1.5s ;
+    color: aqua  ; 
+}
+/* .page-pro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.page-pro div{
+    width: 300px;
+    padding: 2px;
+
+}
+.page-pro img{
+    width: 250px;
+    height: 220px;
+    border-radius: 28px;
+} */
+
+.product-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-form div{
+    width: 200px;
+    padding: 2px;
+}
+.product-form img{
+    width: 200px;
+    height: 150px;
+border-radius: 25px;
+padding: 8px 4px;
+}
+.product-form p{
+    align-items: center;
+}
+.price{
+    align-items: center;
+}
